@@ -1,2 +1,26 @@
 learn git, html, css, python, vs code
 
+How to exclude files/directories from the git repository.
+:GO:		https://github.com/github/gitignore
+:DOWNLOAD:	.gitignore file adpated to your programming langugage
+:SAVE:		.gitignore in my git repository (e.g. \dev\CS50\lecture0 )
+:ADD:		git add .gitignore
+:Commit:	git commit -m "Added .gitignor"  
+
+I can add .gitignore to the repository, but I do not have to. 
+
+The GIT STATUS command shows files, which I have not added to the git repo.
+
+How to define files/directory which I never want to add to my git repo ?
+-Use the Explicit repository excludes.
+
+Use your favorite text editor to open the file called .git/info/exclude within the 
+root of your Git repository. Any rule you add here will not be checked in, and will 
+only ignore files for your local repository.
+
+:NAVIGATE: to the location of your Git repository.
+:EDIT:  .git/info/exclude.
+
+
+
+https://help.github.com/articles/ignoring-files/
